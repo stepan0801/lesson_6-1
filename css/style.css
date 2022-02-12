@@ -1,0 +1,244 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Quintessential:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-SemiBold.woff2") format("woff2"), url("../fonts/Rubik-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Black.woff2") format("woff2"), url("../fonts/Rubik-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+h1 {
+	font-family: "Quintessential", sans-serif;
+	font-size: 35px;
+	width: 300px;
+	margin: 30px auto;
+	color: orangered;
+	border: 2px dashed green;
+	text-shadow: 5px 5px 5px blue;
+}
+h2 {
+	margin-top: 20px;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+	color: gold;
+	text-align: center;
+	outline: double slateblue;
+}
+h3 {
+	text-decoration: line-through;
+	width: 520px;
+	margin-top: 20px;
+	font-family: "Montserrat+Subrayada", sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	font-style: italic;
+	color: rgb(255, 94, 0);
+	outline: dotted fuchsia;
+	border-radius: 5px;
+}
+.about p {
+	font-family: "Montserrat+Subrayada", sans-serif;
+	font-size: 23px;
+	color: green;
+	text-decoration: underline;
+	text-indent: 15px;
+	line-height: 1.5;
+	padding: 15px;
+}
+
+.about p.about-second {
+	color: red;
+	text-shadow: 10px 8px 9px indigo;
+}
+.about p.about-second span {
+	color: aqua;
+	border: 3px dotted rgb(51, 51, 5);
+	text-transform: uppercase;
+	text-shadow: none;
+}
+.list-top {
+	font-family: "Merriweather", sans-serif;
+	padding: 7px;
+	max-width: 480px;
+	border: 1px solid rgb(162, 169, 177);
+	line-height: 1.25;
+	box-shadow: 2px 5px 3px 6px green;
+}
+
+.list li {
+	margin-top: 8px;
+}
+.list li a {
+	color: hotpink;
+	text-transform: uppercase;
+}
+.list-first,
+.list-second,
+.list-third {
+	margin-left: 25px;
+	outline: 2px dotted aqua;
+}
+.list-first li a,
+.list-second li a,
+.list-third li a {
+	text-transform: none;
+}
+.history,
+.composition,
+.disco,
+.tours,
+.notes,
+.link {
+	margin-top: 40px;
+}
+
+.history-first p {
+	padding: 10px;
+	margin-top: 15px;
+	color: coral;
+	line-height: 1.5;
+	text-indent: 7px;
+	text-shadow: 10px 7px 25px hotpink;
+}
+.history-second p {
+	font-family: "Quintessential", sans-serif;
+	font-size: 15px;
+	text-transform: lowercase;
+	max-width: 250px;
+	max-height: 75px;
+	overflow: auto;
+	border: 2px solid grey;
+	border-radius: 20%;
+	color: goldenrod;
+	text-shadow: 10px 10px 15px black;
+	margin: 20px 0 0 80px;
+}
+.history-third p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 18px;
+	text-transform: capitalize;
+	max-width: 750px;
+	max-height: 75px;
+	overflow: auto;
+	border: 3px solid black;
+	border-radius: 45%;
+	color: aquamarine;
+	box-shadow: 10px 10px 15px 20px rgba(255, 0, 0, 0.377);
+	margin: 20px 0 0 20px;
+}
+.history-fourth {
+	margin-top: 60px;
+	box-shadow: 5px 6px 7px 8px palegreen;
+}
+.history-fourth p {
+	font-family: "Merriweather", sans-serif;
+	font-weight: 900;
+	color: seagreen;
+	line-height: 2;
+	text-shadow: 10px 10px 10px hotpink;
+	margin-top: 20px;
+	padding: 30px;
+	border: 1px dotted burlywood;
+}
+.composition li {
+	margin-top: 8px;
+	color: green;
+}
+.composition-top {
+}
+.composition-top-list {
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+	margin: 20px 0 0 40px;
+}
+.composition-middle {
+}
+.composition-middle-list {
+	text-align: justify;
+	text-transform: lowercase;
+	margin: 20px 0 0 80px;
+}
+.composition-bottom p {
+	font-family: "Montserrat+Subrayada", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: capitalize;
+	margin: 20px 0 0 120px;
+	border: 2px double aquamarine;
+	color: sienna;
+}
+.disco {
+	max-height: 200px;
+	overflow: auto;
+}
+.disco ul {
+	max-width: 300px;
+	margin: 80px auto;
+	outline: 5px dashed chocolate;
+	border-radius: 10%;
+	color: palevioletred;
+	opacity: 0.5;
+}
+
+.tours ul {
+	margin-top: 20px;
+	padding: 100px;
+	color: rgb(59, 55, 16);
+	border: 10px solid rgb(61, 10, 10);
+	text-shadow: 20px 30px 50px forestgreen;
+	display: inline-block;
+}
+.tours ul li {
+	margin-top: 10px;
+}
+.tours-img {
+	margin: 20px 0 0 20px;
+	width: 370px;
+	height: 400px;
+}
+.notes-list {
+	color: darkgreen;
+	text-shadow: 5px 7px 9px darkblue;
+	max-height: 200px;
+	overflow: auto;
+	max-width: 500px;
+	margin: 0 auto;
+	word-spacing: 2px;
+	border-right: 3px dashed black;
+	border-left: 3px dotted red;
+}
+.notes-list p {
+	margin-top: 20px;
+}
+.link {
+	opacity: 0.2;
+}
